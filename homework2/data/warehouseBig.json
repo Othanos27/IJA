@@ -1,0 +1,577 @@
+{
+	"regaly" :
+		{
+			"1" : {
+				"vrtacka":147
+				"tiskarna":16
+			},
+			"2" : {
+				"tiskarna":108
+			},
+			"3" : {
+				"dvd":196
+				"trouba":15
+				"matrace":143
+				"hodinky":163
+				"plastelina":27
+			},
+			"4" : {
+				"botnik":34
+				"pohovka":35
+				"zarovka":79
+			},
+			"5" : {
+				"zarovka":3
+				"kafe":161
+				"raketa":36
+			},
+			"6" : {
+				"lampa":128
+			},
+			"7" : {
+				"hokejka":132
+			},
+			"8" : {
+				"sluchatka":197
+				"tiskarna":17
+				"matrace":1
+				"cukr":167
+				"propiska":190
+			},
+			"9" : {
+				"rododendron":174
+			},
+			"10" : {
+				"lednice":19
+				"klavir":18
+				"hodinky":173
+			},
+			"11" : {
+				"lednice":64
+				"kondicioner":33
+				"vrtacka":120
+				"xbox":181
+				"povleceni":58
+			},
+			"12" : {
+				"sluchatka":146
+				"cukr":75
+				"lahev":81
+				"kompot":194
+				"cesnek":37
+			},
+			"13" : {
+				"mikina":108
+				"kreslo":37
+				"petrzel":97
+			},
+			"14" : {
+				"hrnec":181
+				"cerealie":137
+			},
+			"15" : {
+				"puk":114
+				"klobouk":163
+				"klavesnice":191
+			},
+			"16" : {
+				"kafe":79
+			},
+			"17" : {
+				"playstation":59
+				"lahev":76
+			},
+			"18" : {
+				"kolobezka":89
+				"cepice":59
+				"konzerva":102
+			},
+			"19" : {
+				"tiskarna":82
+			},
+			"20" : {
+				"botnik":56
+				"karimatka":119
+			},
+			"21" : {
+				"cerealie":2
+				"playstation":142
+				"klobouk":17
+			},
+			"22" : {
+				"monitor":128
+				"dvd":30
+			},
+			"23" : {
+				"konzerva":4
+			},
+			"24" : {
+				"lampa":151
+				"sesit":106
+				"boty":73
+			},
+			"25" : {
+				"mycka":38
+				"sesit":33
+				"zarovka":105
+			},
+			"26" : {
+				"sroubovak":81
+			},
+			"27" : {
+				"povleceni":167
+				"sroubovak":158
+			},
+			"28" : {
+				"zidle":2
+				"sluchatka":19
+				"dron":1
+			},
+			"29" : {
+				"hokejka":155
+				"mrkev":34
+				"zidle":48
+				"hokejka":94
+			},
+			"30" : {
+				"caj":142
+			},
+			"31" : {
+				"batoh":4
+				"kafe":16
+				"drevo":199
+			},
+			"32" : {
+				"lampa":147
+				"cerealie":131
+				"panev":198
+				"panev":166
+			},
+			"33" : {
+				"karimatka":149
+			},
+			"34" : {
+				"zarovka":157
+				"kondicioner":77
+			},
+			"35" : {
+				"kolobezka":82
+				"celer":179
+				"konzerva":185
+				"elektrokolo":54
+				"slivovice":169
+			},
+			"36" : {
+				"povleceni":49
+				"balon":72
+				"klavir":7
+				"cepice":60
+			},
+			"37" : {
+				"lahev":182
+				"zarovka":91
+			},
+			"38" : {
+				"kondicioner":141
+				"lahev":8
+				"hamaka":181
+				"rododendron":6
+				"dron":138
+			},
+			"39" : {
+				"mycka":135
+				"kvetinac":102
+				"hokejka":151
+				"caj":82
+			},
+			"40" : {
+				"cesnek":95
+				"petrzel":119
+				"sesit":75
+				"kreslo":73
+				"hokejka":161
+			},
+			"41" : {
+				"klavir":161
+				"mrkev":146
+			},
+			"42" : {
+				"pneumatika":87
+			},
+			"43" : {
+				"kolobezka":113
+			},
+			"44" : {
+				"hrnec":44
+				"caj":35
+				"trouba":76
+				"klobouk":4
+			},
+			"45" : {
+				"cukr":186
+				"zidle":44
+				"stul":147
+			},
+			"46" : {
+				"kafe":168
+				"baterie":26
+				"zarovka":130
+			},
+			"47" : {
+				"hrnec":93
+				"brambory":54
+			},
+			"48" : {
+				"kvetinac":69
+				"kondicioner":54
+				"propiska":171
+			},
+			"49" : {
+				"kondicioner":101
+				"konzerva":186
+				"tachometr":97
+			},
+			"50" : {
+				"xbox":98
+				"dvd":24
+			},
+			"51" : {
+				"stul":25
+				"sampon":41
+				"celer":120
+			},
+			"52" : {
+				"obraz":117
+				"vrtacka":178
+			},
+			"53" : {
+				"lahev":65
+			},
+			"54" : {
+				"cihly":93
+				"destnik":130
+				"petrzel":28
+				"pohovka":120
+			},
+			"55" : {
+				"dvd":57
+				"propiska":158
+			},
+			"56" : {
+				"hodinky":140
+				"cepice":195
+			},
+			"57" : {
+				"cukr":184
+			},
+			"58" : {
+				"kompot":28
+				"propiska":144
+			},
+			"59" : {
+				"elektrokolo":23
+				"lednice":132
+				"puk":3
+				"brambory":105
+				"cerealie":119
+			},
+			"60" : {
+				"televize":26
+			},
+			"61" : {
+				"kytara":163
+				"hokejka":166
+				"cerealie":185
+				"cerealie":95
+				"boty":55
+			},
+			"62" : {
+				"kreslo":169
+				"tiskarna":67
+				"raketa":173
+				"toaletni papir":185
+				"botnik":152
+			},
+			"63" : {
+				"kolo":63
+			},
+			"64" : {
+				"kytara":132
+				"cibule":182
+			},
+			"65" : {
+				"televize":177
+				"kolobezka":123
+				"zidle":8
+				"raketa":56
+			},
+			"66" : {
+				"klavir":115
+				"playstation":41
+			},
+			"67" : {
+				"petrzel":89
+				"tiskarna":79
+				"destnik":189
+				"slivovice":34
+				"povleceni":76
+			},
+			"68" : {
+				"klobouk":125
+				"cihly":167
+				"plastelina":180
+				"petrzel":124
+			},
+			"69" : {
+				"batoh":110
+				"hokejka":157
+				"kolo":83
+			},
+			"70" : {
+				"hrnec":164
+				"puk":197
+			},
+			"71" : {
+				"tiskarna":8
+				"petrzel":183
+				"balon":181
+				"sroubovak":195
+			},
+			"72" : {
+				"kreslo":149
+				"elektrokolo":21
+				"vrtacka":136
+			},
+			"73" : {
+				"baterie":134
+			},
+			"74" : {
+				"caj":94
+				"zarovka":154
+				"cukr":172
+				"balon":93
+			},
+			"75" : {
+				"cerealie":132
+				"kafe":90
+			},
+			"76" : {
+				"plastelina":20
+			},
+			"77" : {
+				"elektrokolo":98
+				"vrtacka":17
+				"sluchatka":140
+				"cibule":76
+				"monitor":122
+			},
+			"78" : {
+				"lampa":114
+				"kreslo":193
+			},
+			"79" : {
+				"cerealie":58
+			},
+			"80" : {
+				"slivovice":177
+			},
+			"81" : {
+				"batoh":105
+				"konzerva":125
+				"vrtacka":63
+				"lednice":151
+			},
+			"82" : {
+				"lampa":28
+				"tachometr":128
+				"kolobezka":171
+				"batoh":87
+				"kafe":152
+			},
+			"83" : {
+				"cerealie":140
+			},
+			"84" : {
+				"trouba":145
+			},
+			"85" : {
+				"playstation":167
+				"zidle":132
+				"caj":20
+				"cesnek":38
+			},
+			"86" : {
+				"klobouk":134
+			},
+			"87" : {
+				"cesnek":108
+				"cukr":49
+				"mikina":39
+			},
+			"88" : {
+				"dron":31
+				"hokejka":1
+				"propiska":127
+				"drevo":165
+				"trouba":82
+			},
+			"89" : {
+				"rododendron":43
+				"sluchatka":31
+				"dvd":14
+				"drevo":84
+			},
+			"90" : {
+				"playstation":34
+				"kolobezka":160
+			},
+			"91" : {
+				"sluchatka":59
+				"playstation":118
+				"hamaka":21
+				"puk":177
+			},
+			"92" : {
+				"kompot":198
+				"playstation":24
+				"boty":47
+				"petrzel":146
+			},
+			"93" : {
+				"cukr":106
+			},
+			"94" : {
+				"sroubovak":2
+				"sesit":123
+			},
+			"95" : {
+				"mikina":111
+				"raketa":173
+				"dron":182
+				"matrace":85
+				"konzerva":7
+			},
+			"96" : {
+				"hokejka":150
+				"sampon":18
+				"kolo":165
+				"mikina":52
+				"xbox":27
+			},
+			"97" : {
+				"kolobezka":56
+				"sesit":188
+				"lampa":44
+			},
+			"98" : {
+				"kytara":153
+				"cepice":84
+				"mikina":88
+				"kvetinac":185
+				"destnik":199
+			},
+			"99" : {
+				"kondicioner":117
+			},
+			"100" : {
+				"brambory":47
+				"rododendron":183
+				"xbox":128
+				"sroubovak":24
+				"panev":112
+			},
+			"101" : {
+				"mycka":66
+				"matrace":194
+				"sampon":145
+				"lednice":55
+			},
+			"102" : {
+				"kondicioner":93
+				"kafe":112
+				"cerealie":33
+				"mrkev":108
+				"boty":53
+			},
+			"103" : {
+				"obraz":29
+				"playstation":74
+			},
+			"104" : {
+				"televize":105
+				"hrnec":139
+				"karimatka":184
+			},
+			"105" : {
+				"celer":52
+				"televize":159
+			},
+			"106" : {
+				"xbox":40
+			},
+			"107" : {
+				"dvd":193
+				"sluchatka":192
+			},
+			"108" : {
+				"celer":50
+			},
+			"109" : {
+				"pohovka":154
+				"baterie":118
+			},
+			"110" : {
+				"sampon":3
+				"rododendron":121
+				"caj":17
+			},
+			"111" : {
+				"konzerva":44
+				"puk":108
+				"boty":181
+				"celer":91
+				"lampa":136
+			},
+			"112" : {
+				"sluchatka":62
+				"stul":180
+				"kompot":109
+				"pneumatika":122
+			},
+			"113" : {
+				"hokejka":56
+				"mrkev":93
+			},
+			"114" : {
+				"celer":170
+				"kolo":38
+				"sampon":20
+			},
+			"115" : {
+				"obraz":141
+			},
+			"116" : {
+				"kompot":129
+				"slivovice":144
+			},
+			"117" : {
+				"klavesnice":22
+			},
+			"118" : {
+				"trouba":47
+				"hokejka":163
+				"sroubovak":154
+			},
+			"119" : {
+				"mrkev":127
+				"tiskarna":111
+				"sluchatka":84
+			},
+			"120" : {
+				"slivovice":124
+				"mrkev":35
+				"tachometr":177
+				"klavesnice":196
+			}
+		}
+}

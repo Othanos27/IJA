@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<!-- fx:controller="sample.Controller" -->
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#drag" onMousePressed="#preDrag" onScroll="#zoom" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+    <children>
+        <Rectangle fx:id="Regal_1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="81.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="132.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_23" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_24" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_25" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_26" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_27" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_28" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_29" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_30" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="236.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_31" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_32" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_34" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_35" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_36" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_37" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_38" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_39" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_40" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="287.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_41" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_42" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_43" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_44" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_45" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_46" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_47" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_48" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_49" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_50" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="390.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_51" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_52" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_53" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_54" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_55" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_56" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_57" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_58" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_59" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_60" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="441.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_61" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_62" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_63" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_64" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_65" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_66" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_67" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_68" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_69" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_70" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="545.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_71" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_72" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_73" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_74" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_75" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_76" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_77" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_78" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_79" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_80" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="596.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_81" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_82" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_83" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_84" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_85" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_86" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_87" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_88" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_89" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_90" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="701.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_91" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_92" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_93" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_94" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_95" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_96" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_97" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_98" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_99" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_100" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="752.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_101" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_102" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_103" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_104" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_105" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_106" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_107" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_108" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_109" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_110" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="856.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_111" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_112" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_113" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_114" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_115" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_116" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_117" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_118" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_119" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_120" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="907.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_121" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_122" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_123" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_124" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_125" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_126" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_127" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_128" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_129" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_130" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1005.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_131" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_132" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_133" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_134" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_135" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_136" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_137" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_138" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_139" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_140" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1056.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_141" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_142" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_143" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_144" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_145" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_146" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_147" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_148" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_149" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_150" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1160.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_151" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="58.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_152" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="120.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_153" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="182.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_154" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="244.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_155" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="306.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_156" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="368.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_157" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="430.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_158" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="492.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_159" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="554.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle fx:id="Regal_160" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="1211.0" layoutY="616.0" onMouseEntered="#showName" onMouseExited="#hideName" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Label fx:id="labelRegal" layoutX="81.0" layoutY="742.0" prefHeight="41.0" prefWidth="239.0" text="Najeďte na regál">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelObsahuje" alignment="TOP_LEFT" layoutX="81.0" layoutY="783.0" prefHeight="88.0" prefWidth="728.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonOrder" layoutX="1143.0" layoutY="752.0" mnemonicParsing="false" onAction="#executeOrder" prefHeight="62.0" prefWidth="137.0" text="Vyřiď objednávku">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Label fx:id="labelOrder" alignment="TOP_LEFT" layoutX="1304.0" layoutY="709.0" prefHeight="148.0" prefWidth="153.0" text="Objednávka:" />
+        <Label fx:id="labelTrasa" alignment="TOP_LEFT" layoutX="1304.0" layoutY="58.0" prefHeight="620.0" prefWidth="248.0" text="Trasa:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <Button fx:id="buttonNaplnSklad" layoutX="988.0" layoutY="752.0" mnemonicParsing="false" onAction="#fillWarehouse" prefHeight="62.0" prefWidth="137.0" text="Naplnit skladiště">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <MenuButton layoutX="809.0" layoutY="752.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="160.0" text="Zadat objednávku">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#giveOrder" text="Ručně" />
+          <MenuItem mnemonicParsing="false" onAction="#orderFromFile" text="Ze souboru" />
+        </items>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </MenuButton>
+      <Pane fx:id="popup" layoutX="692.0" layoutY="37.0" prefHeight="696.0" prefWidth="427.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;">
+         <children>
+            <Button fx:id="close" layoutX="386.0" layoutY="14.0" mnemonicParsing="false" onAction="#closePopup" style="-fx-background-color: #ee1111; -fx-border-color: #000000;" text="X" textFill="WHITE" />
+            <ListView fx:id="listViewOrder" layoutX="52.0" layoutY="119.0" prefHeight="443.0" prefWidth="334.0" />
+            <Button fx:id="buttonPotvrdit" layoutX="52.0" layoutY="624.0" mnemonicParsing="false" onAction="#saveOrder" text="Potvrdit" />
+            <Label fx:id="labelPopup" layoutX="52.0" layoutY="39.0" prefHeight="62.0" prefWidth="309.0" textOverrun="CLIP" />
+            <Button fx:id="buttonPridat" layoutX="243.0" layoutY="578.0" mnemonicParsing="false" onAction="#addToOrder" text="Přidat" />
+            <Spinner fx:id="spinnerOrder" layoutX="52.0" layoutY="578.0" />
+            <Label fx:id="labelErrorPopup" layoutX="179.0" layoutY="616.0" prefHeight="55.0" prefWidth="208.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

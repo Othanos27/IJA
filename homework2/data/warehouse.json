@@ -1,0 +1,25 @@
+{
+    "regaly" : 
+        {
+            "1" : {
+                    "drevo":5,
+                    "cesnek":60
+            },
+            "2" : {
+                    "cesnek":7
+            },
+            "3" : {
+                    "brambory":120
+            },
+            "4" : {
+                    "televize":5,
+                    "kreslo":17
+            },
+            "7" : {
+                    "kreslo":20,
+		    "cesnek":2
+            }
+            
+        }
+    
+}
